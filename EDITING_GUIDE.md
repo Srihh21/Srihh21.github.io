@@ -32,8 +32,8 @@ Edit this to change your name, title, location, email, LinkedIn, phone, or GitHu
   "location":          "Chicago, Illinois",
   "email":             "rsrihitha248@gmail.com",    ← contact section + mailto link
   "phone":             "+1 (508) 542-5641",
-  "linkedin_url":      "https://www.linkedin.com/in/srihitha-reddy",
-  "linkedin_label":    "linkedin.com/in/srihitha-reddy",  ← display text
+  "linkedin_url":      "https://www.linkedin.com/in/srihitha-reddy21/",
+  "linkedin_label":    "Srihtha Reddy",  ← display text
   "github_username":   "Srihh21",                  ← used for GitHub API project sync
   "available":         true,                        ← shows/hides the "Available" badge
   "availability_text": "Available for new opportunities"
