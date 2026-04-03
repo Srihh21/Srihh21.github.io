@@ -98,5 +98,5 @@ GitHub Pages automatically rebuilds and deploys within ~1 minute.
 ## Contact
 
 - **Email:** rsrihitha248@gmail.com
-- **LinkedIn:** [linkedin.com/in/srihitha-reddy](https://www.linkedin.com/in/srihitha-reddy)
+- **LinkedIn:** [Srihitha Reddy](https://www.linkedin.com/in/srihitha-reddy21/)
 - **Location:** Chicago, Illinois
