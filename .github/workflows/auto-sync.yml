@@ -1,0 +1,51 @@
+# ─────────────────────────────────────────────────────────────
+# AUTO-SYNC WORKFLOW
+# Triggers:
+#   1. Every push to main (GitHub Pages auto-deploys anyway,
+#      but this also refreshes .last-sync so the CDN re-fetches)
+#   2. repository_dispatch — any project repo can ping this
+#      (see EDITING_GUIDE.md → "Auto-trigger from project repos")
+#   3. Scheduled daily rebuild at midnight UTC
+#   4. Manual trigger via GitHub Actions UI
+# ─────────────────────────────────────────────────────────────
+name: Auto-Sync Portfolio
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '.last-sync'
+  repository_dispatch:
+    types: [project-updated]
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Stamp last-sync timestamp
+        run: |
+          echo "Last sync: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > .last-sync
+          echo "Triggered by: ${{ github.event_name }}" >> .last-sync
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "Source repo: ${{ github.event.client_payload.repo }}" >> .last-sync
+          fi
+
+      - name: Commit and push sync stamp
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .last-sync
+          # Only commit if there's something new
+          git diff --staged --quiet || git commit -m "chore: auto-sync [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push

@@ -1,0 +1,171 @@
+{
+  "personal": {
+    "name": "Srihitha Reddy Betelly",
+    "initials": "SRB",
+    "title": "Senior Data Engineer",
+    "location": "Chicago, Illinois",
+    "email": "rsrihitha248@gmail.com",
+    "phone": "+1 (508) 542-5641",
+    "linkedin_url": "https://www.linkedin.com/in/srihitha-reddy",
+    "linkedin_label": "linkedin.com/in/srihitha-reddy",
+    "github_username": "Srihh21",
+    "available": true,
+    "availability_text": "Available for new opportunities"
+  },
+
+  "summary": "5+ years building high-performance data infrastructure at scale. Expert in Python, Spark, AWS/Azure, and cloud-native ETL pipelines — delivering data that powers business decisions for healthcare and financial services.",
+
+  "stats": [
+    { "value": "5+",    "label": "Years Exp."   },
+    { "value": "12M+",  "label": "Records/Day"  },
+    { "value": "40%",   "label": "Perf. Gains"  },
+    { "value": "99.9%", "label": "Reliability"  }
+  ],
+
+  "highlights": [
+    { "icon": "⚡", "value": "40%",    "label": "Faster pipeline runtimes via dbt, query tuning & partitioning" },
+    { "icon": "🎯", "value": "~30%",   "label": "Reduction in data defects through automated QA frameworks" },
+    { "icon": "📊", "value": "12M+",   "label": "Healthcare records processed daily at ZS" },
+    { "icon": "🛡️", "value": "99.9%", "label": "Pipeline reliability maintained across production environments" },
+    { "icon": "💡", "value": "25–30%", "label": "Improved query performance through advanced data modeling" },
+    { "icon": "🚀", "value": "20%",    "label": "Faster development via reusable PySpark frameworks" }
+  ],
+
+  "experience": [
+    {
+      "title": "Senior Data Engineer",
+      "company": "ZS",
+      "period": "Nov 2024 – Present",
+      "location": "Chicago, Illinois",
+      "bullets": [
+        "Designed and deployed scalable batch pipelines using Python, SQL, Airflow, and AWS/Azure, processing 12M+ healthcare records daily.",
+        "Integrated claims, EMR, patient, and sales datasets into star/snowflake data models, enabling reliable longitudinal patient analytics.",
+        "Built automated data quality frameworks with anomaly detection, cutting data defects by ~30%.",
+        "Improved ETL/ELT pipelines with dbt, query tuning, and partitioning — reducing runtimes by ~40%.",
+        "Maintained 99.9% pipeline reliability; implemented PHI/PII governance and audit logging on AWS and Azure.",
+        "Partnered with consultants, data scientists, and client stakeholders to translate business needs into scalable data solutions.",
+        "Authored technical documentation, runbooks, and data dictionaries, improving knowledge sharing and onboarding."
+      ]
+    },
+    {
+      "title": "Data Engineer",
+      "company": "Fidelity Investments",
+      "period": "Feb 2023 – Oct 2024",
+      "location": "Boston, Massachusetts",
+      "bullets": [
+        "Built and optimized scalable data pipelines in Python, SQL, and Spark — reducing processing time by 40% and supporting 10M+ records/day.",
+        "Leveraged AWS (S3, Glue), Azure (ADLS, Databricks, ADF), and Snowflake to build cost-effective cloud ETL/ELT workflows.",
+        "Implemented data modeling and transformation logic, improving query performance by 25–30%.",
+        "Enforced data quality and reconciliation checks, reducing inconsistencies by 35% across critical datasets.",
+        "Developed reusable PySpark frameworks and SQL components, boosting development efficiency by 20%.",
+        "Maintained full compliance with financial data governance and security standards — zero audit findings.",
+        "Mentored junior engineers and conducted code reviews, leading to higher code quality and faster pipeline delivery."
+      ]
+    },
+    {
+      "title": "Junior Data Engineer",
+      "company": "Optum Global Solutions",
+      "period": "Jun 2020 – Dec 2021",
+      "location": "Hyderabad, India",
+      "bullets": [
+        "Developed and maintained ETL pipelines using Python and SQL, processing 5M+ records daily for healthcare analytics.",
+        "Optimized batch workflows, improving pipeline execution time by 20–25% through query optimization.",
+        "Performed data validation and quality checks, reducing production data defects by 30%.",
+        "Supported production deployments and maintained 99%+ pipeline uptime.",
+        "Built scalable pipelines using Postgres, cloud-based platforms, and Spark — increasing data processing speed by 30%."
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "category": "Languages",
+      "icon": "🐍",
+      "tags": ["Python", "SQL"]
+    },
+    {
+      "category": "Cloud — AWS",
+      "icon": "☁️",
+      "tags": ["AWS Glue", "EMR", "Redshift", "Athena", "S3", "Lambda", "DynamoDB", "EC2", "CloudWatch", "QuickSight"]
+    },
+    {
+      "category": "Cloud — Azure",
+      "icon": "🔷",
+      "tags": ["ADLS", "Azure Data Factory", "Databricks"]
+    },
+    {
+      "category": "Data Engineering",
+      "icon": "⚙️",
+      "tags": ["PySpark", "Apache Spark", "ETL/ELT", "Airflow", "dbt", "Snowflake", "Star Schema", "Snowflake Schema", "Data Warehousing"]
+    },
+    {
+      "category": "Databases",
+      "icon": "🗄️",
+      "tags": ["PostgreSQL", "MySQL", "SQL Server", "Amazon Redshift", "Snowflake"]
+    },
+    {
+      "category": "Libraries",
+      "icon": "📦",
+      "tags": ["Pandas", "NumPy", "Scikit-Learn", "PySpark"]
+    },
+    {
+      "category": "Analytics & Reporting",
+      "icon": "📈",
+      "tags": ["Tableau", "Power BI", "AWS QuickSight", "EDA", "Risk Analytics"]
+    },
+    {
+      "category": "Practices & Tools",
+      "icon": "🛠️",
+      "tags": ["Git", "CI/CD", "Agile/Scrum", "JIRA", "Logging & Monitoring", "Code Reviews"]
+    }
+  ],
+
+  "education": [
+    {
+      "icon": "🎓",
+      "degree": "Master of Science",
+      "field": "Computers and Information Sciences",
+      "school": "University of Massachusetts, Dartmouth",
+      "period": "Jan 2022 – Aug 2023",
+      "location": "North Dartmouth, MA"
+    },
+    {
+      "icon": "🏛️",
+      "degree": "Bachelor of Engineering",
+      "field": "Electronics and Communication Engineering",
+      "school": "Jawaharlal Nehru Technological University, Hyderabad",
+      "period": "Aug 2017 – Apr 2021",
+      "location": "Hyderabad, India"
+    }
+  ],
+
+  "projects": {
+    "exclude_repos": ["Srihh21.github.io"],
+
+    "repo_overrides": {
+      "fraud-detection-system": {
+        "icon": "🛡️",
+        "pinned": true,
+        "pin_order": 1,
+        "custom_description": "End-to-end real-time fraud detection with Kafka, Spark Structured Streaming, scikit-learn, and Streamlit — processing live card transactions through an ML model with a real-time alert dashboard.",
+        "status": "active",
+        "highlights": [
+          "Streaming architecture with Kafka + Spark Structured Streaming for real-time transaction scoring",
+          "Weighted logistic regression serialized as JSON for portable, pickle-free inference across Spark workers",
+          "MinIO as S3-compatible local data lake; optional Snowflake micro-batch sink for warehouse analytics",
+          "Live Streamlit dashboard showing KPIs, fraud alerts, and risk trend visualizations"
+        ],
+        "architecture": ["Dataset", "Kafka", "Spark Streaming", "ML Scorer", "MinIO/S3", "Snowflake", "Streamlit"],
+        "tech_tags": ["Python", "Kafka", "Spark Streaming", "scikit-learn", "MinIO/S3", "Snowflake", "Streamlit", "Docker"]
+      },
+      "video-streaming-pipeline": {
+        "icon": "🎬",
+        "pinned": true,
+        "pin_order": 2,
+        "custom_description": "Large-scale data pipeline for ingesting, processing, and analyzing video streaming event data — covering real-time ingestion, batch processing, and analytics.",
+        "status": "wip",
+        "tech_tags": []
+      }
+    }
+  }
+}
